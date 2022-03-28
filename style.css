@@ -1,0 +1,72 @@
+/* Paddy-Whackers landing page*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* ---CSS for header--- */
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+}
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+
+    .logo {
+      color: #F9FAF8;
+      font-size: 24px;
+      flex: 1;
+    }
+
+   ul {
+       list-style: none;
+       padding: 0px;
+       margin: 0px;
+       color: #E5E7EB;
+       font-size: 18px;
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       text-align: center;
+   }
+
+   ul > * {
+       flex: 1;
+   }
+
+  .header-heroflex {
+      display: flex;
+      justify-content: center;
+      margin: 48px;
+      background-color: blue;
+  }
+
+/* ---CSS for content--- */
+
+.content {
+    display: flex;
+}
+
+/* ---CSS for testimonial--- */
+
+.testimonial {
+    display: flex;
+}
+
+/* ---CSS for footer--- */
+
+.footer {
+    display: flex;
+}
