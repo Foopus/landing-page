@@ -146,18 +146,83 @@ body > * {
 /* ---CSS for testimonial--- */
 
 .testimonial {
-    display: flex;
-    flex: 1;
     
+    flex: 1;
     background-color: #E5E7EB;
+}
+
+.test-box {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.test-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.test-ee {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 32px;
+  align-self: flex-end;
 }
 
 /* ---CSS for footer--- */
 
-.footer {
-    display: flex;
+
+.footer-box {
+  background-color: white;
+  margin: 100px 0px;
+  
+}
+
+.cta {
+  
+  color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+}
+
+.cta-main {
+  color: #F9FAF8;
+    font-size: 24px;
+    flex: 1;
+}
+
+.sign-up {
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b7babe;
+  border-bottom-color: #E5E7EB;
+  background-color: #3882f6;
+  color: #F9FAF8;
+  font-weight: bold;
+  padding: 8px;
+  width: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom {
+  display: flex;
     flex: 1;
     background-color: #1F2937;
-    
-    
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 16px;
 }
+
